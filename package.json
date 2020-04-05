@@ -1,0 +1,16 @@
+{
+  "name": "common-lib",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "^13.9.1",
+    "kafkajs": "^1.12.0",
+    "uuid": "^7.0.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "run": "tsc && node ./dist/main.js"
+  },
+  "devDependencies": {
+    "@types/uuid": "^7.0.2"
+  }
+}
